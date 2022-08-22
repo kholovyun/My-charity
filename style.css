@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+    width: 100%;
+}
+.header-container {
+    background-color: white;
+    width: 100%;
+    height: 82px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    background-repeat: no-repeat;
+    margin-left: 255px ;
+    background-size: contain;
+    height: 45px;   
+    width: 212px;  
+}
+.header-logo-image {
+    height: 45px;
+    width: 212px
+}
+.header-nav-menu {
+    display: flex;
+    margin-right: 255px;   
+}
+.header-list-menu {
+    list-style: none;
+    display: flex;     
+}
+.header-menu-item {
+    margin: 20px;    
+}
+.header-menu-item a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333 ;
+    transition: all 0.4s ease-in-out;
+}
+.header-menu-item a:hover {
+    color: rgb(25, 236, 56);
+    margin: 10px;
+}
+.main-container {
+    width: 1024px; 
+    margin: 0 auto;   
+}
+.large-welcome-row{
+    display: flex;
+    flex-direction: column;
+    background-image: url(..//homeWork/images/image.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+}
+.welcome-row-h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+}
+.welcome-row-p{
+    font-size: 24px;
+    line-height: 38px;
+    color: white;
+}
+.small-logo-donate-row{ 
+    height: auto;
+    width: 100%; 
+    display: flex; 
+    flex-direction: row;
+    
+}
+.tree{
+    background-image: url(..//homeWork/images/image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 277px;
+    width: 59px;
+    flex-grow: 1;
+}
+.donate{
+    background-color: #9b242d;
+    height: 277px;
+    width: 59px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+    justify-content: center;
+}
+.donate-h2{
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+}
+.donate-p{
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin: 4px;
+}
+.logo{
+    background-color: #f1efec;
+    display: flex;
+    flex-grow:1;
+    height: 277px;
+    width: 59px;
+    align-items: center;
+    justify-content: center;
+}
+.sing-up-row{
+    height: auto;
+    width: 100%; 
+    display: flex; 
+    flex-direction: row;  
+}
+.large-sing-block{
+    background-color: #46a651;
+    height: 277px;
+    width: 54px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+    justify-content: center;
+    padding-right: 65px;
+}
+.sing-text-block{
+    padding-left: 100px;
+    text-align: end;
+    margin-bottom: 30px;
+}
+.text-block-h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    margin-top: 0;
+}
+.text-block-p{
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 45px;
+}
+.sing-link{
+    color: white;
+    background-color: #348e3e;
+    font-size: 16px;
+    line-height: 22px;
+    transition: all 0.5s ease-in-out;
+}
+.sing-link:hover{
+    border: 1px solid #75f285 ;
+}
+.sing-text-block a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 13px 27px 13px 27px;
+}
+.sing-row-img{
+    background-image: url(..//homeWork/images/image-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 277px;
+    width: 59px;
+    flex-grow: 1;
+}
+.facebook-icon-row{
+    height: auto;
+    width: 100%; 
+    display: flex; 
+    flex-direction: row;   
+}
+.facebook-row-image{
+    background-image: url(..//homeWork/images/image-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 277px;
+    width: 161px;
+    flex-grow: 2;
+}
+.facebook-icon-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 277px;
+    flex-grow: 1;
+    background-color: #3b5997;
+    color: white;
+}
+.facebook-icon {
+    width: 30px;   
+}
+.facebook-small-text {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.footer-container{
+    background-color: #373838;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-nav-menu {
+    display: flex;
+     
+}
+.footer-list-menu {
+    list-style: none;
+    display: flex;     
+}
+.footer-menu-item {
+    margin: 20px;    
+}
+.footer-menu-item a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 22px;
+    color: #939393 ;
+    transition: all 0.7s ease-in-out;
+}
+.footer-menu-item a:hover {
+    color: rgb(244, 158, 11);
+    font-size: 20px;
+}
